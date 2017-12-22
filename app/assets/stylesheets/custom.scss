@@ -1,0 +1,94 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+hr{
+	width: inherit;
+}
+
+html,body{
+	font-family: raleway,arial;
+}
+.wrapper{
+	margin:0 auto 0 auto;
+
+}
+.main{
+	min-height: 900px;
+	background-color:white;
+	width:65%;
+	margin-left: 5%;
+	float:left;
+
+}
+.sub{
+	color:white;
+	min-height: 900px;
+	background-color: #176bb1;
+	width: 30%;
+	float:right;
+
+}
+.foot{
+	clear: both;
+	
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+.bt0{
+	margin-bottom:0;
+}
+.bt{
+	margin-bottom:0;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+.ml25{
+	margin-left: 30%;
+}
+.ml20{
+	margin-left: 20%;
+}
+.inpr,hr{
+	margin-right: 5%;
+	float:right;
+	width: 95%;
+}
+.inpr{
+	position: relative;
+	text-align: justify;
+	text-indent: 0%;
+}
+
+img
+{
+border-radius: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+}
+meter::-webkit-meter-optimum-value {
+    background: #85b3da;
+}
+meter {
+  width: 50%;
+  height: 15px;
+}
+ol,ul
+{
+    list-style-type: none;
+    list-style-position: inside;
+   
+
+}
+hr{
+	float: right;
+	margin-top: -10px;
+}
+mark{
+	background-color: #85b3da;
+}
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<body>
+<div class="wrapper">
+	<div class="main"  >
+		<p class="bt">AJITH KUMAR.S</p>
+		<P style="margin-top: 0">Ruby on Rails Developer</P><br>
+		<h3 class="bt0">About Me</h3><hr style="width: 84%">
+		<p class="inpr" >This paragraph is about me To obtain a challenging and decision making role in your organization. Also to utilize my knowledge and skills for the growth and development of your organization. To obtain a challenging and decision making role in your organization. Also to utilize my knowledge and skills for the growth and development of your organization.</p>
+		<h3 class="bt0" >Education</h3><hr style="width: 83.5%">
+		 	<span></br>
+		 		<h4 class="bt0"><mark>2013-2017</mark></h4><h4 style="margin-bottom: 0">B.E(Computer Science)</h4>
+		 		<h4 style="margin-top:0;margin-bottom: 0 ">Anna University/Jeppiaar Maamallan Engineering Colleges.</h4>
+		 		<p class="inpr">Obtain 6.1 CGPA </p></br></br>
+		 		<h4 class="bt0"><mark>2012-2013</mark></h4><h4 style="margin-bottom: 0">HSC</h4>
+		 		<h4 style="margin-top:0 ;margin-bottom: 0">Matriculation/Sri Ramakrishna Higher Secondary School,Perambalur.
+				</h4>
+				<p class="inpr">Finished HSC with 80%</p></br></br>
+		 		<h4 class="bt0"><mark>2010-2011</mark></h4><h4 style="margin-bottom: 0">SSLC</h4>
+		 		<h4 style="margin-top:0;margin-bottom: 0">Matriculation/Sri Ramakrishna Higher Secondary School,Perambalur.
+				</h4>
+				<p class="inpr">Finished SSLC with 75%</p></br></br>
+		 	</span>
+		<h3 class="bt0">Projects</h3><hr style="width: 85.4%">
+			<span>
+				</br>
+				<h4 class="bt0">Project Name</h4>
+				<p class="inpr">
+					A web application for ruby on rails tutorial.
+				</p>
+				</br></br>
+			</span>
+	</div>
+	<div class="sub">
+		<%= image_tag("ax.jpg", :size => "170x170") %></br>
+
+		<p  class="ml25">Professional Skill</p>
+			<ol class="ml20">
+				<li>HTML</li>
+				<meter min="0" max="100" value="95" width=50%>
+				</meter>
+
+				<li>CSS</li>
+				<meter value="95" min="0" max="100"></meter>
+
+				<li>Java Script</li>
+				<meter min="0" max="100" value="85" width=50%>
+				</meter>
+
+				<li>JQuery</li>
+				<meter min="0" max="100" value="90" width=50%>
+				</meter>
+
+				<li>Ruby</li>
+				<meter min="0" max="100" value="75" width=50%>
+				</meter>
+
+
+			</ol></br>
+		<p  class="ml25">Techinical Skill</p>
+			<ol class="ml20">
+			<li>GIT</li>
+			<meter min="0" max="100" value="95">
+			 </meter>
+			<li>Rails</li>
+			<meter min="0" max="100" value="70">
+			 </meter>
+			</ol></br>
+		<p  class="ml25">Language Skill</p>
+			<ol class="ml20">
+			<li>English</li>
+			<meter min="0" max="100" value="70">
+			 </meter>
+			<li>Tamil</li>
+			<meter min="0" max="100" value="100">
+			 </meter>
+			</ol></br>
+
+		<p class="ml25">Contact Me</p>
+			<ul class="ml20">
+				<li id="phoneno"> &#9990 - +918508078956</li></br>
+				<li id="address"> &#9751 - 340-Radient shine appartment,</br>Begur Koppa Road,Bengaluru</br>Karnataka 560 068</li></br>
+				<li id="mail">&#9993 -coderajith@gmail.com</li>
+			</ul></br>
+		</div>
+	<div class="foot">
+    </div>
+
+    <%= yield %>
+  </body>
+</html>
